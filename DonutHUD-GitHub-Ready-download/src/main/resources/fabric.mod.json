@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_hud",
+  "version": "${version}",
+  "name": "Donut HUD",
+  "description": "A lightweight client-side HUD with coordinates, direction, FPS and connection info.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.example.donuthud.DonutHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
